@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduLearn</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-[#faf8f4]">
+  <header class="border-b border-[#DDDEDE]">
+    <div class="max-w-xxl mx-auto flex items-center justify-between px-5 py-6">
+      <a class="block" href="#">
+        <img class="w-32 lg:w-auto" src="img/logo.svg" alt="logo">
+      </a>
+
+      <div class="hidden md:flex items-center text-brand-gray gap-4 lg:gap-14">
+        <a href="#" class="lg:hover:text-black transition ease-linear">Find Sub</a>
+        <a href="#" class="lg:hover:text-black transition ease-linear">For School</a>
+        <a href="#" class="lg:hover:text-black transition ease-linear">Resource</a>
+        <a href="#" class="lg:hover:text-black transition ease-linear">About Us</a>
+      </div>
+
+      <a class="hidden md:inline-block font-sequel-300 text-lg text-brand-primary-orange border border-brand-primary-orange rounded-xl lg:srounded-3xl lg:hover:text-white lg:hover:bg-brand-primary-orange transition ease-linear py-2 lg:py-4 px-5 lg:px-8"
+        href="#">Make Appointment</a>
+
+      <!-- menu btn -->
+      <button class="md:hidden toggleMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- mobile menu -->
+    <div class="menu fixed z-50 inset-0 bg-white -translate-x-full transition ease-linear">
+      <div class="flex items-center justify-between border-b border-[#DDDEDE] px-5 py-6">
+        <a class="block" href="#">
+          <img class="w-32 lg:w-auto" src="img/logo.svg" alt="logo">
+        </a>
+
+        <!-- x btn -->
+        <button class="toggleMenu">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <div class="text-brand-gray space-y-4 px-5 py-6">
+        <a href="#" class="block">Find Sub</a>
+        <a href="#" class="block">For School</a>
+        <a href="#" class="block">Resource</a>
+        <a href="#" class="block">About Us</a>
+        <a class=" inline-block font-sequel-300 text-lg text-brand-primary-orange border border-brand-primary-orange rounded-xl lg:srounded-3xl lg:hover:text-white lg:hover:bg-brand-primary-orange transition ease-linear py-2 lg:py-4 px-5"
+          href="#">Make Appointment</a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- hero section -->
+  <section class="relative overflow-hidden">
+    <div class="max-w-xxl mx-auto grid lg:grid-cols-2 gap-20 lg:gap-5 px-5 py-10 lg:py-20">
+      <!-- left -->
+      <div>
+        <div class="font-sequel-600 text-3xl md:text-5xl xl:text-7xl leading-tight">
+          <h1 class="whitespace-nowrap">Keep Learning</h1>
+          <div class="relative flex items-center gap-4">
+            <h1 class="whitespace-nowrap">On Track</h1>
+            <!-- kid -->
+            <div class="relative">
+              <img
+                class="relative z-20 w-12 md:w-16 xl:w-24 h-12 md:h-16 xl:h-24 rounded-2xl xl:rounded-[30px] shadow-hero-card object-cover bg-gray-200"
+                src="img/kid.png" alt="girl">
+              <div
+                class="absolute z-0 inset-0 w-12 md:w-16 xl:w-24 h-12 md:h-16 xl:h-24 rounded-2xl xl:rounded-[30px] bg-brand-secondary-blue translate-x-1 -translate-y-1">
+              </div>
+            </div>
+            <div class="relative">
+              <img class="w-20 xl:w-auto" src="img/green-bubble.svg" alt="">
+              <p
+                class="absolute top-3 xl:top-6 left-1/2 -translate-x-1/2 font-sequel-500 text-lg xl:text-2xl text-white/80 rotate-[18deg]">
+                with</p>
+            </div>
+
+            <img class="absolute -z-10 bottom-0 md:-bottom-4 xl:-bottom-6 left-0 w-40 md:w-60 xl:w-auto"
+              src="img/double-line.svg" alt="">
+          </div>
+          <h1 class="whitespace-nowrap">Our Services</h1>
+        </div>
+        <p class="font-sequel-300 text-lg text-brand-secondary-gray pt-4 pb-9">When schools and districts have reliable
+          access to substitute teachers and subs have the freedom to choose what and when they teach.</p>
+        <div class="relative flex flex-col sm:flex-row items-start md:items-center gap-4 md:gap-10 pb-24">
+          <a href="#"
+            class="inline-block font-sequel-400 text-lg text-white bg-brand-primary-orange rounded-[20px] border border-brand-primary-orange rounded-br-none lg:hover:bg-transparent lg:hover:text-brand-primary-orange transition ease-linear py-4 px-8">Get
+            Started</a>
+
+          <a class="group flex items-center border-b border-brand-secondary-blue lg:hover:border-transparent transition ease-linear gap-2 p-2 md:p-4"
+            href="#">
+            <span class="font-sequel-300 text-lg text-brand-secondary-blue">Learn More</span>
+            <svg width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M2.9107 1.51341L11.2705 1.75241M11.2705 1.75241L11.0315 10.1122M11.2705 1.75241L0.951942 11.4974"
+                stroke="#307B74" stroke-width="1.18274" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+
+          <img class="absolute -z-10 top-10 xl:top-0 right-0 w-20 md:w-auto" src="img/green-curve-shape.svg"
+            alt="curve shape">
+        </div>
+
+        <!-- testimonials -->
+        <div class="grid sm:grid-cols-2 gap-11">
+          <div class="relative">
+            <div class="flex items-center gap-2.5 pb-3">
+              <img class="w-10 h-10 rounded-full overflow-hidden object-cover" src="img/avatar.png" alt="avatar">
+              <p class="font-sequel-500 text-lg opacity-80">Jenny Wilson</p>
+            </div>
+
+            <!-- stars -->
+            <div class="flex items-center gap-3 pb-3 md:pb-6">
+              <div class="flex items-center gap-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+              </div>
+              <p class="font-sequel-600 text-xs">5.0 (3.988)</p>
+            </div>
+            <p class="font-sequel-300 text-sm text-brand-secondary-gray">It is a well taught by lecturers from other
+              universities as well, a great online university for people who work full time.</p>
+
+            <img class="absolute -z-10 -top-5 right-20" src="img/four-angle-star.svg" alt="">
+          </div>
+          <div class="relative">
+            <div class="flex items-center gap-2.5 pb-3">
+              <img class="w-10 h-10 rounded-full overflow-hidden object-cover" src="img/avatar.png" alt="avatar">
+              <p class="font-sequel-500 text-lg opacity-80">Jenny Wilson</p>
+            </div>
+
+            <!-- stars -->
+            <div class="flex items-center gap-3 pb-3 md:pb-6">
+              <div class="flex items-center gap-0.5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                  <path
+                    d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                    fill="#FEC84B" />
+                </svg>
+              </div>
+              <p class="font-sequel-600 text-xs">5.0 (3.988)</p>
+            </div>
+            <p class="font-sequel-300 text-sm text-brand-secondary-gray">It is a well taught by lecturers from other
+              universities as well, a great online university for people who work full time.</p>
+
+            <img class="absolute -z-10 -top-5 right-20" src="img/four-angle-star.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <!-- right -->
+      <div class="relative grid grid-cols-5 gap-y-4 gap-x-8 lg:pl-20">
+        <div class="relative col-span-2">
+          <!-- orange bubble -->
+          <div>
+            <img class="absolute bottom-4 -right-8 sm:right-0 w-24 sm:w-auto" src="img/orange-bubble.svg" alt="">
+            <p
+              class="absolute bottom-14 sm:bottom-20 -right-1 sm:right-10 font-sequel-500 text-xl sm:text-4xl lg:text-3xl xl:text-4xl text-white/80 -rotate-[25deg]">
+              Easy</p>
+          </div>
+
+          <!-- four angle star -->
+          <img class="absolute top-6 left-2" src="img/four-angle-star.svg" alt="">
+        </div>
+
+        <div class="relative col-span-3">
+          <img class="relative z-20 w-full h-40 sm:h-48 rounded-[30px] shadow-hero-card object-cover" src="img/girl.png"
+            alt="girl">
+          <div
+            class="absolute z-0 inset-0 w-full h-40 sm:h-48 rounded-[30px] bg-brand-secondary-blue translate-x-2 -translate-y-2">
+          </div>
+        </div>
+
+        <div class="relative col-span-5">
+          <img class="relative z-20 w-full h-64 sm:h-[340px] rounded-[30px] shadow-hero-card object-cover"
+            src="img/kids-with-teacher-2.png" alt="girl">
+          <div
+            class="absolute z-0 inset-0 w-full h-64 sm:h-[340px] rounded-[30px] bg-brand-secondary-blue translate-x-2 translate-y-2">
+          </div>
+
+          <img class="absolute z-30 -top-6 -left-6 w-16 sm:w-auto" src="img/orange-dots.svg" alt="">
+          <img class="absolute z-30 -bottom-10 -right-10 w-16 sm:w-auto" src="img/orange-dots.svg" alt="">
+        </div>
+
+        <div class="relative col-span-3 sm:col-span-2">
+          <img class="relative z-20 w-full h-32 xl:h-40 rounded-[30px] shadow-hero-card object-cover"
+            src="img/kids-wth-teacher.png" alt="girl">
+          <div
+            class="absolute z-0 inset-0 w-full h-32 xl:h-40 rounded-[30px] bg-brand-secondary-blue translate-x-1 -translate-y-1">
+          </div>
+        </div>
+
+        <div class="relative col-span-2 sm:col-span-3">
+          <img class="absolute top-4 -left-8 sm:left-0 w-28 sm:w-auto" src="img/yellow-bubble.svg" alt="">
+          <p class="absolute top-11 left-0 sm:left-9 text-xl sm:text-2xl rotate-[30deg]">Fun :)</p>
+          <img class="absolute top-4 right-0 sm:left-32" src="img/four-angle-star.svg" alt="">
+          <img class="hidden sm:block absolute -z-10 -bottom-10 xl:bottom-0 right-0" src="img/orange-curve-shape.svg"
+            alt="">
+        </div>
+        <div
+          class="absolute -z-10 top-1/2 -translate-y-1/2 left-0 -right-20 h-[590px] bg-brand-primary-orange/10 rounded-3xl">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- easier way -->
+  <section class="max-w-xxl mx-auto px-5 py-10 lg:py-20">
+    <div class="relative grid lg:grid-cols-2 items-center gap-y-5 xl:gap-10">
+      <div class="relative">
+        <h1 class="font-sequel-600 text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal">An Easier Way to be Sub and
+          Find
+          Sub
+        </h1>
+        <img class="absolute -z-10 top-12 lg:top-16 xl:top-20 left-12 w-40 lg:w-64" src="img/double-line.svg" alt="">
+      </div>
+      <p class="font-sequel-300 lg:text-lg text-brand-secondary-gray lg:pl-20">When schools and districts have reliable
+        access
+        to
+        substitute teachers and subs have the freedom to choose what and when they teach, more classes are covered and
+        student learning stays on track.</p>
+
+      <img class="hidden lg:block absolute -z-10 left-1/2 -translate-x-1/2 top-32 xl:top-40"
+        src="img/green-curve-shape-easy.svg" alt="">
+    </div>
+
+    <!-- cards -->
+    <div class="grid lg:grid-cols-3 gap-9 pt-10 lg:pt-28">
+      <div class="relative bg-brand-ligh-gray rounded-3xl pt-8 xl:pt-12 pb-40 px-6 xl:px-9">
+        <h3 class="font-sequel-400 text-2xl md:text-3xl xl:text-4xl">Teacher absences <span
+            class="text-brand-primary-orange">disrupt</span>
+          student learning</h3>
+        <p class="font-sequel-300 text-lg text-brand-secondary-gray pt-4">When schools and districts have reliable
+          access to
+          teacher</p>
+        <!-- round shape -->
+        <svg class="absolute bottom-4 left-4" xmlns="http://www.w3.org/2000/svg" width="105" height="81"
+          viewBox="0 0 105 81" fill="none">
+          <path
+            d="M16.3683 77.0767C-6.06733 56.2321 5.98751 34.0868 20.8567 22.5984C43.1054 5.40842 83.416 -6.17889 96.3017 17.6419C109.187 41.4626 94.7583 65.3167 59.0899 74.2886C32.0749 81.0839 20.251 61.1925 23.3708 47.3168C26.8726 31.7417 45.1627 21.053 59.3688 18.4652C75.5817 15.5118 82.7579 23.872 84.4085 35.2802C86.4607 49.4638 66.7463 60.2186 55.601 59.0296C44.4557 57.8406 44.4995 45.3967 48.5522 39.6066"
+            stroke="#25786E" stroke-width="6.41949" stroke-linecap="round" />
+        </svg>
+
+        <div
+          class="absolute bottom-0 right-0 w-24 md:w-32 h-24 md:h-32 flex justify-end items-end bg-[#faf8f4] rounded-tl-3xl">
+          <a class="relative group w-20 md:w-28 h-20 md:h-28 flex items-center justify-center bg-brand-ligh-gray rounded-full"
+            href="#">
+            <svg class="lg:group-hover:scale-125 transition ease-linear" width="72" height="72" viewBox="0 0 72 72"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4] lg:shadow-[0_25px_0_0_#faf8f4]"></div>
+            <div class="absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4] lg:shadow-[0_25px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl pb-40 lg:pb-12 pt-8 lg:pt-40 px-6 xl:px-9">
+        <h3 class="font-sequel-400 text-2xl md:text-3xl xl:text-4xl">A better way to <span
+            class="text-brand-primary-orange">connect</span>
+          subs and schools</h3>
+        <p class="font-sequel-300 text-lg text-brand-secondary-gray pt-4">When schools and districts have reliable
+          access to
+          teacher</p>
+        <!-- globe shape -->
+        <svg class="absolute bottom-10 lg:top-10 left-10" width="82" height="76" viewBox="0 0 82 76" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_807_1207)">
+            <path
+              d="M81.7245 32.6436C81.5834 24.2885 78.1894 17.1579 71.6293 11.4507C66.3692 6.86906 59.9091 3.53226 52.4341 1.5291C49.5414 0.75627 46.4845 0.0941583 43.2869 0.0941583C41.605 0.088887 39.9282 0.285746 38.2937 0.680495C30.7892 2.51791 25.2857 4.64084 20.4538 7.57179C13.228 11.955 8.6397 16.3093 5.57682 21.693C1.43701 28.9602 -0.0704629 36.4612 0.967912 44.6251C1.58117 49.4312 3.34442 54.1732 6.51864 59.5481C9.02108 63.7826 12.2304 66.8214 16.332 68.8336C18.4881 69.8954 20.6091 70.9219 22.8066 71.8579C28.624 74.3368 34.5913 75.3401 42.1574 75.1096C42.6296 75.0455 43.2075 74.9756 43.8647 74.8967C45.6191 74.6867 48.0219 74.4009 50.3599 73.978C56.8934 72.7999 62.2446 70.8024 66.7193 67.8715C68.2133 66.9105 69.5777 65.7639 70.7794 64.4592C73.0055 61.9724 74.9049 59.2149 76.4324 56.2524C80.1402 49.1678 81.8709 41.4452 81.7245 32.6436ZM14.2723 16.0088C19.9139 10.8876 26.0397 7.32691 32.9982 5.12508L34.2042 4.74301L33.2888 5.61205C29.0114 9.68904 26.2389 14.7693 24.2998 18.7385L24.2208 18.9048L24.0328 18.902C21.6417 18.8787 16.3848 17.5663 14.334 16.4813L13.9675 16.2861L14.2723 16.0088ZM3.85495 37.238C4.53245 30.44 7.04654 24.4063 11.5412 18.7953L11.6642 18.6434L22.8712 21.9535L22.7626 22.2453C20.9779 27.033 19.718 31.9982 19.0046 37.0543L18.9692 37.3024L3.82238 37.5646L3.85495 37.238ZM9.32628 58.6208L9.19127 58.4139C5.44775 52.6014 3.66104 46.6901 3.73156 40.344L3.73441 40.0554H18.3619L18.6994 54.6341L9.32628 58.6208ZM22.3666 68.35C18.2328 66.5302 13.9586 64.649 10.8894 60.8374L10.6725 60.5689L10.9745 60.4029C13.7177 58.8658 16.5487 57.9706 18.9543 57.2968L19.2741 57.2094L19.324 57.533C20.0252 61.8901 21.2249 65.2439 23.0967 68.0843L23.6423 68.9097L22.3666 68.35ZM37.7538 71.8693L37.4929 71.8897C37.0075 71.9306 36.5276 71.9513 36.0522 71.9513C34.0848 71.9107 32.1268 71.6641 30.2111 71.216C29.8579 71.1075 29.5593 70.87 29.3751 70.5513L28.9526 69.8658C27.8392 68.0548 26.7171 67.1106 25.6082 64.3102C24.5033 61.5194 23.6163 58.8564 23.3288 56.4128L23.3002 56.1531L23.5555 56.0963C28.3125 55.0076 33.1575 54.3418 38.0333 54.1073L38.3531 54.0897L37.7538 71.8693ZM38.4873 51.1835L22.9416 53.4117L22.9006 53.1231C22.2579 48.6493 22.3581 44.0938 22.5397 40.2268L22.5514 39.9498H38.9538L38.4873 51.1835ZM39.0446 36.9604H22.9619L22.9905 36.6425C23.4042 32.2332 24.4663 27.669 26.2352 22.688L26.3115 22.4749L39.0449 23.487L39.0446 36.9604ZM39.1385 20.5035L27.4478 19.794L27.6151 19.412C30.6659 12.4017 34.5413 7.39355 39.8163 3.66026L40.3236 3.30155L39.1385 20.5035ZM52.9711 5.69436C57.7499 7.09981 63.8902 9.31645 69.0184 14.0386L69.3265 14.3224L68.5696 14.7072C66.1463 15.9409 63.8588 17.1046 61.0946 17.5363L60.9007 17.5684L60.7982 17.398C60.3934 16.7387 59.9988 16.0709 59.6042 15.4031C57.6648 12.1426 55.6611 8.76838 52.6951 6.19333L51.6829 5.31549L52.9711 5.69436ZM43.0168 6.29803C43.0522 5.57175 43.0873 4.83985 43.1196 4.10789L43.1401 3.68501L43.5304 3.85104C49.3184 6.32704 53.4522 10.7017 56.9345 18.0363L57.0958 18.3769L55.7317 18.6306C51.428 19.4387 47.3619 20.2027 43.0268 20.3426L42.7304 20.3514L42.7247 20.0568C42.5888 15.4391 42.7969 10.9986 43.0171 6.29746L43.0168 6.29803ZM42.6742 23.5892L58.5767 21.1918L58.6646 21.3958C60.5541 25.6423 61.446 30.3958 61.3901 35.927V36.2069L42.673 36.9039L42.6742 23.5892ZM42.4952 39.8332L61.3444 39.2411L61.3355 39.5533C61.2065 43.7197 60.7388 47.8685 59.9366 51.9597L59.8866 52.2134L42.0466 50.9417L42.4952 39.8332ZM49.4834 70.9741C47.5471 71.2863 45.6052 71.5486 43.5515 71.8256C42.8503 71.9218 42.1374 72.018 41.4068 72.1173L41.0577 72.1667L41.8468 53.9833L42.1169 53.9745C47.0749 53.7878 52.1854 54.1701 58.6835 55.2111L59.0387 55.2678L58.9125 55.6005C58.7803 55.9504 58.6484 56.2975 58.5193 56.6446C57.3773 59.6922 55.9838 62.3871 54.5471 65.1806C52.9674 68.2512 50.0119 70.889 49.4829 70.9736L49.4834 70.9741ZM70.9847 58.7457C68.1125 64.2577 63.1605 66.7104 58.2407 68.5418L57.4278 68.845L57.8884 68.113C60.0419 64.7072 61.4472 60.9941 62.9343 57.063L63.3275 56.0222L71.146 58.4366L70.9847 58.7457ZM77.9698 38.961C77.4505 45.1788 75.9427 50.3874 73.229 55.351L73.1202 55.5522L64.2751 53.2485L65.7919 39.0544L77.9961 38.6346L77.9698 38.961ZM78.1254 35.3214L78.0929 35.5694L65.7685 36.0014L65.7331 35.7386C65.6275 34.9439 65.5333 34.1404 65.4399 33.3616C65.2346 31.6003 65.0202 29.7833 64.6536 28.0394C64.2899 26.3217 63.7766 24.6682 63.2307 22.9182C62.9992 22.1658 62.7556 21.3902 62.5295 20.6114L62.4564 20.3608L71.5597 16.6074L71.6944 16.7064C75.8245 19.7565 78.9491 28.8067 78.1248 35.3208L78.1254 35.3214Z"
+              fill="#25786E" />
+          </g>
+          <defs>
+            <clipPath id="clip0_807_1207">
+              <rect width="81.3684" height="75.2108" fill="white" transform="translate(0.391479)" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <div
+          class="absolute bottom-0 lg:top-0 right-0 w-24 md:w-32 h-24 md:h-32 flex justify-end items-end lg:items-start bg-[#faf8f4] rounded-tl-3xl lg:rounded-tl-none lg:rounded-bl-3xl">
+          <a class="relative group w-20 md:w-28 h-20 md:h-28 flex items-center justify-center bg-brand-ligh-gray rounded-full"
+            href="#">
+            <svg class="lg:group-hover:scale-125 transition ease-linear" width="72" height="72" viewBox="0 0 72 72"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <!-- desktop -->
+            <div class="hidden lg:block absolute -bottom-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tr-3xl
+            shadow-[0_-25px_0_0_#faf8f4]"></div>
+            <div
+              class="hidden lg:block absolute top-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tr-3xl shadow-[0_-25px_0_0_#faf8f4]">
+            </div>
+
+            <!-- mobile -->
+            <div class="lg:hidden absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+            <div class="lg:hidden absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl pt-8 xl:pt-12 pb-40 px-6 xl:px-9">
+        <h3 class="font-sequel-400 text-2xl md:text-3xl xl:text-4xl">Student learning stays <span
+            class="text-brand-primary-orange">on
+            track</span>
+          to meet target</h3>
+        <p class="font-sequel-300 text-lg text-brand-secondary-gray pt-4">When schools and districts have reliable
+          access to
+          teacher</p>
+        <!-- target shape -->
+        <svg class="absolute bottom-6 left-6" width="83" height="85" viewBox="0 0 83 85" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0_807_1200)">
+            <path
+              d="M81.6113 27.5857C81.3566 26.5513 80.8308 25.757 80.1314 25.3493C79.8657 25.1934 79.571 25.0942 79.2653 25.0579C78.9599 25.0215 78.6499 25.0487 78.3555 25.1378C77.4078 25.4086 76.3445 26.2486 76.6652 28.7131C76.9159 30.6419 77.1238 32.6125 77.3252 34.5161C77.4111 35.3285 77.4983 36.1406 77.5863 36.953C77.2644 42.3568 76.908 47.2287 75.8153 52.0801C74.388 58.4169 71.4388 64.3902 67.0503 69.833C63.491 74.2478 58.9426 76.9837 53.1451 78.1965C48.3473 79.1652 43.426 79.358 38.5677 78.7682C34.6182 78.3156 29.9878 77.5965 25.5886 75.6923C20.4955 73.4879 16.8907 70.8845 14.2432 67.4992C10.326 62.4762 7.52596 56.6684 6.03159 50.4673C5.01994 46.5299 4.7503 42.4375 5.23671 38.401C5.98204 32.4609 7.99944 26.6235 11.5851 20.0294C12.8473 17.702 14.5531 15.6468 16.6055 13.9809C21.6008 9.91857 26.5481 7.12889 31.7298 5.45189C35.4149 4.25908 39.482 3.88413 44.1683 4.30599C47.2825 4.58631 50.3087 5.5191 53.2353 6.42146C53.8911 6.62349 54.5471 6.82548 55.2044 7.02106L55.507 7.1132C56.0671 7.30436 56.6449 7.4381 57.2315 7.51234C57.6207 7.54673 58.4287 7.32994 58.5825 6.86755C58.6552 6.60326 58.6699 6.32616 58.6247 6.05567C58.5797 5.78517 58.4761 5.52785 58.3217 5.30175C57.9249 4.81133 57.4119 4.42868 56.8298 4.18877C54.8733 3.3736 53.1042 2.64835 51.2586 2.03152C47.7454 0.852803 44.0631 0.261591 40.3591 0.28146C34.4183 0.331278 28.5889 1.90613 23.425 4.85625C21.5179 5.92502 19.8326 6.91824 18.2725 7.89275C13.6801 10.7613 10.343 14.1212 8.07034 18.1642C5.3428 23.0153 3.45864 27.486 2.30947 31.8305C0.947231 36.9816 0.457823 40.9979 0.722263 44.852C1.18083 51.5235 3.2975 58.1289 7.19561 65.046C8.59995 67.6002 10.3112 69.972 12.2909 72.1077C16.4308 76.4983 21.6763 79.6045 28.3233 81.6021C33.4354 83.144 38.744 83.9281 44.0817 83.9297C46.3792 83.929 48.6744 83.7854 50.9544 83.4998C59.9013 82.3813 66.7902 78.4903 72.0114 71.6042C76.1895 66.0942 78.9571 60.58 80.4725 54.7482C82.1995 48.0992 82.8409 40.8575 82.4337 32.6092C82.3239 30.9116 82.0485 29.2291 81.6113 27.5857Z"
+              fill="#307B74" />
+            <path
+              d="M47.8766 15.9203C48.2435 15.9587 48.61 15.9977 48.9769 16.0321C49.3061 16.0628 50.1844 16.1453 50.4779 15.2878C50.6027 14.9648 50.5981 14.606 50.4654 14.2862C50.333 13.9665 50.0823 13.7105 49.7662 13.5718C49.1863 13.2772 48.5718 13.0563 47.9372 12.9142C45.0345 12.3004 42.0523 12.1628 39.1058 12.5067C33.6095 13.1555 28.9946 14.5845 24.9971 16.8758C19.6863 19.9197 16.4008 23.8058 14.953 28.7579C14.7314 29.5172 14.4333 30.2804 14.1698 30.9538C11.9012 36.6001 11.3358 42.792 12.5437 48.7589C13.3973 52.9762 14.4505 56.3809 16.8158 59.29C22.2467 65.9692 28.4229 69.7377 35.6972 70.811C37.2654 71.0425 38.8768 71.1199 40.432 71.1945C41.1406 71.2286 41.8731 71.2639 42.59 71.3133H42.6111H42.6187C48.2389 71.1967 53.7564 69.7776 58.74 67.1663C59.9351 66.5685 61.0362 65.7972 62.0075 64.8774C65.0786 61.846 67.0141 58.9722 68.0975 55.8338C68.3161 55.201 68.6047 54.5725 68.8841 53.9646C68.9697 53.7782 69.0556 53.5918 69.1394 53.4049C71.6422 47.8356 71.6199 41.7469 69.0706 34.7908C68.8575 34.2059 68.5243 33.6729 68.0926 33.2265C67.815 32.9148 67.4592 32.684 67.0621 32.5581C66.665 32.4325 66.2416 32.4165 65.8365 32.512C65.4504 32.6361 65.1052 32.8642 64.839 33.1712C64.5727 33.4782 64.3951 33.8525 64.3257 34.2538C64.1548 34.9839 64.2813 35.7966 64.3929 36.5139L64.4183 36.6751C64.5482 37.5212 64.7057 38.3754 64.8579 39.2019C65.1162 40.6047 65.3837 42.0558 65.5204 43.4884C65.7714 45.8547 65.4556 48.2467 64.5999 50.466C63.8384 52.4644 62.9763 54.4227 62.0169 56.3333C60.4306 59.4036 58.6939 61.4153 56.5502 62.6581C54.8713 63.6327 52.9759 64.3253 51.1425 64.9953L50.4201 65.2602C47.1796 66.4552 43.693 66.4576 40.3011 66.4595H40.2752C35.0591 66.4595 31.0867 65.3023 27.7761 62.8187C27.2368 62.4137 26.6697 62.0349 26.1213 61.6683C25.5141 61.2624 24.8864 60.843 24.3037 60.3929C21.1451 57.9523 19.0814 55.2041 17.9949 51.9876C16.7158 48.205 15.3771 43.1872 16.3817 37.9151C16.712 36.3355 17.1226 34.7742 17.6119 33.2369C17.9093 32.2455 18.2164 31.2203 18.4757 30.1991C19.5353 26.0274 22.1036 22.7963 26.3279 20.3213C32.0262 16.9823 38.3969 15.4312 45.246 15.7008C46.1209 15.7355 47.0127 15.8294 47.8766 15.9203Z"
+              fill="#307B74" />
+            <path
+              d="M33.062 30.9138C34.4462 30.1159 35.9145 29.4756 37.44 29.0048C39.0135 28.5344 40.6692 28.2164 42.2702 27.9087C42.683 27.8292 43.0957 27.75 43.5071 27.668C44.0314 27.5639 44.8238 27.4061 44.84 26.4755C44.8526 25.7454 44.3699 25.2556 43.5496 25.1651C43.1186 25.1166 42.6848 25.0995 42.2513 25.1138C39.3403 25.2237 36.4122 25.9032 33.0375 27.2532C30.0979 28.3823 27.7033 30.6036 26.3496 33.457C23.9106 38.4828 23.7662 43.8583 25.9215 49.4339C26.5283 51.0032 27.4412 53.0065 29.129 54.5847C32.9106 58.1198 37.5113 59.9117 42.8043 59.9117C43.0553 59.9117 43.3069 59.9187 43.5588 59.9267C43.7905 59.9344 44.0259 59.9424 44.2619 59.9424C44.5441 59.9445 44.8263 59.9292 45.1066 59.8963C48.795 59.4388 51.6827 58.1969 53.9352 56.0996C58.1641 52.1619 60.0766 46.8887 59.6214 40.426C59.5569 39.515 59.1106 38.6145 58.7171 37.8205C58.3616 37.1039 57.5484 36.5568 56.7374 36.9574C56.1883 37.2946 55.7869 37.8279 55.6142 38.4502C55.5087 38.8841 55.4723 39.332 55.5072 39.7769C55.5127 39.994 55.5179 40.1991 55.5072 40.3996C55.48 40.8933 55.4677 41.3953 55.4558 41.8813C55.458 42.998 55.3714 44.1131 55.1975 45.2156C54.1119 51.0102 50.8601 54.4127 45.5328 55.3292C41.7796 55.974 38.0866 55.2721 34.5578 53.2414C33.1971 52.4585 31.8137 51.5331 30.9125 50.0738C28.2785 45.8085 27.6277 41.2675 28.9777 36.5767C29.7398 33.9221 31.1155 32.0164 33.062 30.9138Z"
+              fill="#307B74" />
+            <path
+              d="M68.9317 11.2082C68.9766 10.97 69.0249 10.7318 69.0732 10.4938C69.2405 9.74976 69.3603 8.99581 69.4321 8.23649C69.5318 6.89323 68.9124 6.41611 67.8801 6.08144C67.4826 5.94061 67.0549 5.90846 66.641 5.9882C66.2268 6.06794 65.8416 6.2567 65.5239 6.53524C62.6004 8.98749 59.6525 11.4727 56.7617 13.9212C55.7223 14.8027 55.3554 15.931 55.6153 17.4717C55.7816 18.4622 55.8849 19.4849 55.9846 20.4742C56.0607 21.2261 56.1393 22.0031 56.245 22.7664C56.3279 23.3661 56.1594 23.7726 55.6238 24.266L55.3845 24.4861C53.9061 25.8472 52.3778 27.2544 50.9416 28.7097C48.3843 31.3009 45.8057 33.9555 43.3095 36.5225C42.1246 37.7424 40.9384 38.9616 39.7514 40.1802C38.9027 41.0506 39.0813 41.7209 39.3809 42.1298C39.4915 42.2944 39.6404 42.4292 39.8147 42.5228C39.9889 42.6162 40.1833 42.6653 40.3808 42.6659C40.7847 42.6463 41.1726 42.502 41.4915 42.2523C42.0473 41.8382 42.5737 41.3856 43.0671 40.898C45.9258 38.1882 48.7827 35.4759 51.6377 32.7617L56.2784 28.3535C56.7458 27.9104 57.0793 27.6965 57.6724 27.721C60.2043 27.7972 62.7778 27.7953 65.2668 27.7925C65.9733 27.7913 66.6798 27.7913 67.3866 27.7925H67.3924C67.8281 27.8039 68.2604 27.7163 68.6575 27.5362C69.0546 27.3561 69.4059 27.0883 69.6853 26.7527C71.703 24.4398 73.7913 22.1198 75.7472 19.9571C76.7077 18.8951 77.539 17.7883 77.1666 15.9304C76.8303 14.2602 76.605 13.5211 74.7341 13.5107C73.7573 13.5091 72.7668 13.561 71.8093 13.6157C71.2673 13.6464 70.7253 13.6771 70.183 13.6974C69.7452 13.7134 69.3111 13.7099 68.8073 13.7056L68.4245 13.7026C68.464 13.5104 68.5031 13.3219 68.5419 13.1371C68.681 12.4671 68.8119 11.8386 68.9317 11.2082ZM73.451 17.3489L73.5268 17.3544L68.2894 24.0105H59.5005C59.4752 23.9215 59.4474 23.831 59.4195 23.7392C59.2914 23.3756 59.2095 22.9973 59.175 22.6132C59.1361 21.5969 59.138 20.5589 59.1395 19.5552C59.1395 18.9531 59.1416 18.3511 59.1343 17.7496C59.127 17.1558 59.2132 16.6814 59.6558 16.2977C61.311 14.8626 62.9603 13.4198 64.7108 11.8883L66.1889 10.5964C66.1739 10.8257 66.1614 10.9924 66.1366 11.153C66.066 11.6083 65.9868 12.0625 65.9076 12.5166C65.7575 13.3809 65.6019 14.2746 65.5077 15.1653C65.4246 15.9507 65.534 16.4855 65.8523 16.8463C66.1705 17.207 66.6734 17.3786 67.4444 17.3928C68.5707 17.4143 69.7149 17.382 70.8204 17.3516C71.4199 17.3354 72.0194 17.3191 72.6186 17.3105C72.8643 17.3099 73.1086 17.3262 73.4507 17.3501L73.451 17.3489Z"
+              fill="#307B74" />
+          </g>
+          <defs>
+            <clipPath id="clip0_807_1200">
+              <rect width="82.236" height="84.1264" fill="white" transform="translate(0.391479)" />
+            </clipPath>
+          </defs>
+        </svg>
+
+        <div
+          class="absolute bottom-0 right-0 w-24 md:w-32 h-24 md:h-32 flex justify-end items-end bg-[#faf8f4] rounded-tl-3xl">
+          <a class="relative group w-20 md:w-28 h-20 md:h-28 flex items-center justify-center bg-brand-ligh-gray rounded-full"
+            href="#">
+            <svg class="lg:group-hover:scale-125 transition ease-linear" width="72" height="72" viewBox="0 0 72 72"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4] lg:shadow-[0_25px_0_0_#faf8f4]"></div>
+            <div class="absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4] lg:shadow-[0_25px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- why choose us -->
+  <section class="max-w-xxl mx-auto px-5 py-10 lg:py-20">
+    <div class="relative grid lg:grid-cols-2 items-center gap-y-5 xl:gap-10">
+      <div class="relative">
+        <h1 class="font-sequel-600 text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal">Why Choose Our Services?</h1>
+        <img class="absolute -z-10 top-12 lg:top-16 xl:top-20 left-12 w-40 lg:w-64" src="img/double-line.svg" alt="">
+        <img class="absolute -z-10 top-16 md:top-4 right-10 xl:w-16" src="img/four-angle-star.svg" alt="">
+      </div>
+      <p class="font-sequel-300 lg:text-lg text-brand-secondary-gray lg:pl-20">Schools and districts save time and
+        money, so
+        they can focus on full-time staff and student outcomes. Subs work on their own terms while making a difference
+        in students’ lives. The Swing platform makes it easy for administrators.</p>
+
+      <img class="hidden lg:block absolute -z-10 right-0 top-40" src="img/green-curve-shape-choose.svg" alt="">
+    </div>
+
+    <div class="relative grid grid-cols-8 gap-2 mt-10 lg:mt-28">
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden hidden md:block h-28 md:h-40 lg:h-52 col-span-3 rounded-[30px]">
+      </div>
+      <div
+        class="h-28 md:h-40 lg:h-52 col-span-4 md:col-span-2 flex flex-col items-center justify-center text-white/80 rounded-2xl md:rounded-[30px] bg-brand-primary-orange md:gap-3 p-6 lg:p-10">
+        <h1 class="font-sequel-600 text-3xl md:text-5xl lg:text-6xl">3k</h1>
+        <p class="font-sequel-300 text-sm md:text-base lg:text-lg text-center">Highly Trained Teacher</p>
+      </div>
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden h-28 md:h-40 lg:h-52 col-span-4 md:col-span-3 rounded-2xl md:bg-transparent md:opacity-0">
+      </div>
+
+
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden hidden md:block relative h-28 md:h-40 lg:h-52 col-span-2 rounded-2xl md:rounded-[30px]">
+      </div>
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden h-28 md:h-40 lg:h-52 col-span-2 rounded-2xl md:rounded-[30px]">
+      </div>
+      <div
+        class="h-28 md:h-40 lg:h-52 col-span-4 md:col-span-2 flex flex-col items-center justify-center text-white/80 rounded-2xl md:rounded-[30px] bg-brand-primary-orange md:gap-3 p-6 lg:p-10">
+        <h1 class="font-sequel-600 text-3xl md:text-5xl lg:text-6xl">300+</h1>
+        <p class="font-sequel-300 text-sm md:text-base lg:text-lg text-center">Study Center Worldwide</p>
+      </div>
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden h-20 lg:h-40 mt-auto col-span-2 rounded-2xl md:rounded-[30px]">
+      </div>
+
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden h-28 md:h-40 lg:h-52 col-span-2 rounded-2xl md:rounded-[30px]">
+      </div>
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden h-28 md:h-40 lg:h-52 col-span-2 md:col-span-3 rounded-2xl md:rounded-[30px]">
+      </div>
+      <div
+        class="h-28 md:h-40 lg:h-52 col-span-4 md:col-span-2 flex flex-col items-center justify-center text-white/80 rounded-2xl md:rounded-[30px] bg-brand-primary-orange md:gap-3 p-6 lg:p-10">
+        <h1 class="font-sequel-600 text-3xl md:text-5xl lg:text-6xl">48+</h1>
+        <p class="font-sequel-300 text-sm md:text-base lg:text-lg text-center">Country we Served</p>
+      </div>
+      <div
+        class="bg-grid-bg bg-cover bg-fixed overflow-hidden hidden md:block h-28 md:h-40 lg:h-52 col-span-1 rounded-2xl md:rounded-[30px]">
+      </div>
+
+      <img class="hidden md:block absolute top-0 right-20 w-40 lg:w-auto" src="img/choose-orange-shape.svg" alt="">
+    </div>
+  </section>
+
+  <!-- what clients say -->
+  <section class="max-w-xxl mx-auto px-5 py-10 lg:py-20">
+    <div class="relative grid lg:grid-cols-2 items-center gap-y-5 xl:gap-10">
+      <div class="relative">
+        <h1 class="font-sequel-600 text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal">What Our Lovely Clients Say
+        </h1>
+        <img class="absolute -z-10 top-12 lg:top-16 xl:top-20 left-40 xl:left-60 w-40 lg:w-64" src="img/double-line.svg"
+          alt="">
+      </div>
+      <p class="font-sequel-300 lg:text-lg text-brand-secondary-gray lg:pl-20">We recently heard from Haining Wei, who
+        started
+        teaching with Swing in the spring of 2022. Below, she shares her story of how she was able to get into the
+        classroom quickly.</p>
+
+      <svg class="hidden lg:block absolute -z-10 right-0 top-40" xmlns="http://www.w3.org/2000/svg" width="102"
+        height="64" viewBox="0 0 102 64" fill="none">
+        <path d="M5.39165 58.1506C20.5854 57.0346 59.996 48.2555 96.0889 22.0668" stroke="#307B74"
+          stroke-width="9.98713" stroke-linecap="round" />
+        <path d="M16.6074 38.6457C27.9618 37.6052 57.4139 29.4192 84.3865 5.00001" stroke="#307B74"
+          stroke-width="9.98713" stroke-linecap="round" />
+      </svg>
+    </div>
+
+    <!-- cards -->
+    <div class="grid lg:grid-cols-3 gap-5 xl:gap-9 pt-10 lg:pt-28">
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-5 xl:p-8">
+        <div class="absolute top-0 left-0 w-24 md:w-32 h-24 md:h-32 bg-[#faf8f4] rounded-br-3xl">
+          <div class="relative">
+            <img class="w-20 md:w-28 h-20 md:h-28 object-cover rounded-2xl" src="img/avatar.png" alt="">
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute -bottom-16 left-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-15px_0_0_#faf8f4]"></div>
+            <div class="absolute top-0 -right-6 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-25px_0_0_#faf8f4]"></div>
+          </div>
+        </div>
+
+        <div class="space-y-2 pl-24 md:pl-32">
+          <h5 class="font-sequel-600 text-xl lg:text-2xl text-black/80">James Hown</h5>
+          <p class="font-sequel-300">Sub Teacher in Illinos</p>
+          <!-- stars -->
+          <div class="flex items-center gap-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+          </div>
+        </div>
+        <p class="font-sequel-300 md:text-lg pt-6 md:pt-10">Schools and districts save time and money, so they can focus
+          on
+          full-time
+          staff and student outcomes. Subs work on their own terms while making a difference in students’ lives. The
+          Swing platform makes it easy for administrators to request subs.</p>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-5 xl:p-8">
+        <div class="absolute top-0 left-0 w-24 md:w-32 h-24 md:h-32 bg-[#faf8f4] rounded-br-3xl">
+          <div class="relative">
+            <img class="w-20 md:w-28 h-20 md:h-28 object-cover rounded-2xl" src="img/avatar.png" alt="">
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute -bottom-16 left-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-15px_0_0_#faf8f4]"></div>
+            <div class="absolute top-0 -right-6 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-25px_0_0_#faf8f4]"></div>
+          </div>
+        </div>
+
+        <div class="space-y-2 pl-24 md:pl-32">
+          <h5 class="font-sequel-600 text-xl lg:text-2xl text-black/80">James Hown</h5>
+          <p class="font-sequel-300">Sub Teacher in Illinos</p>
+          <!-- stars -->
+          <div class="flex items-center gap-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+          </div>
+        </div>
+        <p class="font-sequel-300 md:text-lg pt-6 md:pt-10">Schools and districts save time and money, so they can focus
+          on
+          full-time
+          staff and student outcomes. Subs work on their own terms while making a difference in students’ lives. The
+          Swing platform makes it easy for administrators to request subs.</p>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-5 xl:p-8">
+        <div class="absolute top-0 left-0 w-24 md:w-32 h-24 md:h-32 bg-[#faf8f4] rounded-br-3xl">
+          <div class="relative">
+            <img class="w-20 md:w-28 h-20 md:h-28 object-cover rounded-2xl" src="img/avatar.png" alt="">
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute -bottom-16 left-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-15px_0_0_#faf8f4]"></div>
+            <div class="absolute top-0 -right-6 h-12 w-6 bg-brand-ligh-gray z-10 rounded-tl-3xl
+            shadow-[0_-25px_0_0_#faf8f4]"></div>
+          </div>
+        </div>
+
+        <div class="space-y-2 pl-24 md:pl-32">
+          <h5 class="font-sequel-600 text-xl lg:text-2xl text-black/80">James Hown</h5>
+          <p class="font-sequel-300">Sub Teacher in Illinos</p>
+          <!-- stars -->
+          <div class="flex items-center gap-0.5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path
+                d="M17.4468 9.24897L14.1562 12.1208L15.1419 16.3964C15.1941 16.6199 15.1792 16.8538 15.0991 17.0689C15.0191 17.284 14.8774 17.4708 14.6917 17.6058C14.5061 17.7408 14.2848 17.8181 14.0555 17.828C13.8262 17.8379 13.5991 17.78 13.4025 17.6616L9.67336 15.3997L5.95226 17.6616C5.75568 17.78 5.52853 17.8379 5.29923 17.828C5.06992 17.8181 4.84862 17.7408 4.66301 17.6058C4.47739 17.4708 4.33569 17.284 4.25562 17.0689C4.17555 16.8538 4.16067 16.6199 4.21283 16.3964L5.1971 12.1252L1.90575 9.24897C1.73167 9.09883 1.60579 8.90063 1.5439 8.67924C1.48201 8.45784 1.48686 8.2231 1.55785 8.00445C1.62883 7.7858 1.7628 7.59298 1.94293 7.45016C2.12307 7.30734 2.34137 7.22088 2.57044 7.20164L6.9088 6.82588L8.60227 2.78666C8.6907 2.57472 8.83987 2.39368 9.03099 2.26634C9.2221 2.13899 9.44662 2.07104 9.67628 2.07104C9.90593 2.07104 10.1305 2.13899 10.3216 2.26634C10.5127 2.39368 10.6619 2.57472 10.7503 2.78666L12.4489 6.82588L16.7858 7.20164C17.0148 7.22088 17.2331 7.30734 17.4133 7.45016C17.5934 7.59298 17.7274 7.7858 17.7984 8.00445C17.8693 8.2231 17.8742 8.45784 17.8123 8.67924C17.7504 8.90063 17.6245 9.09883 17.4504 9.24897H17.4468Z"
+                fill="#FEC84B" />
+            </svg>
+          </div>
+        </div>
+        <p class="font-sequel-300 md:text-lg pt-6 md:pt-10">Schools and districts save time and money, so they can focus
+          on
+          full-time
+          staff and student outcomes. Subs work on their own terms while making a difference in students’ lives. The
+          Swing platform makes it easy for administrators to request subs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- useful content -->
+  <section class="max-w-xxl mx-auto px-5 py-10 lg:py-20">
+    <div class="relative grid lg:grid-cols-2 items-center gap-y-5 xl:gap-10">
+      <div class="relative">
+        <h1 class="font-sequel-600 text-4xl/normal lg:text-5xl/normal xl:text-6xl/normal">Useful Content For Your Check
+        </h1>
+        <img class="absolute -z-10 top-12 lg:top-16 xl:top-20 left-32 xl:left-52 w-40 lg:w-64" src="img/double-line.svg"
+          alt="">
+      </div>
+      <p class="font-sequel-300 lg:text-lg text-brand-secondary-gray lg:pl-20">Looking to become a substitute teacher?
+        Swing
+        Education is now servicing the greater Chicago area! Substitute teaching is a rewarding job for aspiring
+        teachers, part-time job seekers.</p>
+      <svg class="hidden lg:block absolute -z-10 left-1/2 -translate-x-1/2 top-0" xmlns="http://www.w3.org/2000/svg"
+        width="72" height="76" viewBox="0 0 72 76" fill="none">
+        <path d="M26.8859 3C31.3181 18.1693 37.5233 53.346 26.8859 72.6988" stroke="#2D7D74" stroke-width="5.87349"
+          stroke-linecap="round" />
+        <path d="M3.39148 41.7652C16.3755 38.4728 47.5532 32.4853 68.3915 34.8742" stroke="#2D7D74"
+          stroke-width="5.87349" stroke-linecap="round" />
+        <path d="M46.4632 5.74097C39.4933 22.5647 22.7656 57.5516 11.6138 62.9096" stroke="#2D7D74"
+          stroke-width="5.87349" stroke-linecap="round" />
+        <path d="M10.0485 17.8794C18.3493 22.521 36.6271 35.5976 43.3316 50.771" stroke="#2D7D74" stroke-width="5.87349"
+          stroke-linecap="round" />
+      </svg>
+    </div>
+
+    <!-- cards -->
+    <div class="grid lg:grid-cols-3 gap-5 lg:gap-9 pt-10 lg:pt-28">
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-4 md:pb-20 lg:pb-8">
+        <img class="relative z-40 w-full h-60 md:h-72 lg:h-56 xl:h-72 object-cover rounded-xl" src="img/card-img-1.png"
+          alt="">
+        <p class="font-sequel-500 text-lg md:text-xl xl:text-2xl text-black/80 pt-8 sm:pt-12 md:pt-8 pr-24 md:pr-32">How
+          Swing
+          helped me
+          start
+          teaching in 11
+          days</p>
+
+        <div
+          class="absolute bottom-0 right-0 w-20 md:w-28 h-20 md:h-28 flex justify-end items-end bg-[#faf8f4] rounded-tl-3xl">
+          <a class="relative group w-16 md:w-24 h-16 md:h-24 flex items-center justify-center bg-brand-ligh-gray rounded-2xl md:rounded-3xl"
+            href="#">
+            <svg class="w-12 md:w-16 lg:group-hover:scale-125 transition ease-linear" viewBox="0 0 72 72" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+            <div class="absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-4 md:pb-20 lg:pb-8">
+        <img class="relative z-40 w-full h-60 md:h-72 lg:h-56 xl:h-72 object-cover rounded-xl" src="img/card-img-2.png"
+          alt="">
+        <p class="font-sequel-500 text-lg md:text-xl xl:text-2xl text-black/80 pt-8 sm:pt-12 md:pt-8 pr-24 md:pr-32">The
+          Guide
+          to
+          Becoming a
+          Substitute
+          Teacher </p>
+
+        <div
+          class="absolute bottom-0 right-0 w-20 md:w-28 h-20 md:h-28 flex justify-end items-end bg-[#faf8f4] rounded-tl-3xl">
+          <a class="relative group w-16 md:w-24 h-16 md:h-24 flex items-center justify-center bg-brand-ligh-gray rounded-2xl md:rounded-3xl"
+            href="#">
+            <svg class="w-12 md:w-16 lg:group-hover:scale-125 transition ease-linear" viewBox="0 0 72 72" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+            <div class="absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="relative bg-brand-ligh-gray rounded-3xl p-4 md:pb-20 lg:pb-8">
+        <img class="relative z-40 w-full h-60 md:h-72 lg:h-56 xl:h-72 object-cover rounded-xl" src="img/card-img-3.png"
+          alt="">
+        <p class="font-sequel-500 text-lg md:text-xl xl:text-2xl text-black/80 pt-8 sm:pt-12 md:pt-8 pr-24 md:pr-32">New
+          Effective
+          Teaching Method
+          for Active
+          Child</p>
+
+        <div
+          class="absolute bottom-0 right-0 w-20 md:w-28 h-20 md:h-28 flex justify-end items-end bg-[#faf8f4] rounded-tl-3xl">
+          <a class="relative group w-16 md:w-24 h-16 md:h-24 flex items-center justify-center bg-brand-ligh-gray rounded-2xl md:rounded-3xl"
+            href="#">
+            <svg class="w-12 md:w-16 lg:group-hover:scale-125 transition ease-linear" viewBox="0 0 72 72" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+                stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+
+            <!-- rounded angle of main card body -->
+            <div class="absolute bottom-0 -left-10 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+            <div class="absolute -top-16 right-0 h-12 w-6 bg-brand-ligh-gray z-10 rounded-br-3xl
+            shadow-[0_15px_0_0_#faf8f4]"></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- get in touch -->
+  <section class="max-w-xxl mx-auto px-5 py-10 lg:py-24">
+    <div class="relative w-full rounded-3xl overflow-hidden pt-12 lg:pt-20 pb-28 pl-5 pr-5 md:pr-36">
+      <div class="relative z-30 lg:max-w-2xl ml-auto space-y-4 lg:space-y-6">
+        <h3 class="font-sequel-300 text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-brand-primary-orange">Get in Touch
+        </h3>
+        <h1 class="font-sequel-600 text-4xl lg:text-5xl xl:text-6xl text-white">Join our community of school partners
+        </h1>
+        <p class="font-sequel-300 text-lg text-brand-ligh-gray pr-12">Looking to become a substitute teacher? Our
+          Education is
+          now servicing the greater Chicago area! </p>
+      </div>
+
+      <div
+        class="absolute z-30 bottom-0 md:top-0 right-0 w-24 md:w-32 lg:w-40 h-24 md:h-32 lg:h-40 flex justify-end items-end md:items-start bg-[#faf8f4] rounded-tl-3xl md:rounded-tl-none md:rounded-bl-3xl">
+        <a class="relative group w-20 md:w-28 lg:w-36 h-20 md:h-28 lg:h-36 flex items-center justify-center bg-brand-secondary-blue rounded-3xl"
+          href="#">
+          <svg class="w-16 md:w-24 lg:group-hover:scale-125 transition ease-linear" viewBox="0 0 72 72" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.5083 22.0243L49.7873 22.6612M49.7873 22.6612L49.1503 44.9402M49.7873 22.6612L22.2882 48.6317"
+              stroke="#FF9D01" stroke-width="3.15201" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+
+          <!-- rounded angle of main card body -->
+          <!-- desktop -->
+          <div class="hidden md:block absolute -bottom-16 right-0 h-12 w-4 bg-brand-secondary-blue z-10 rounded-tr-3xl
+            shadow-[0_-16px_0_0_#faf8f4]"></div>
+          <div
+            class="hidden lg:block absolute top-0 -left-8 h-12 w-4 bg-brand-secondary-blue z-10 rounded-tr-3xl shadow-[0_-25px_0_0_#faf8f4]">
+          </div>
+
+          <!-- mobile -->
+          <div class="md:hidden absolute bottom-0 -left-8 h-12 w-4 bg-brand-secondary-blue z-10 rounded-br-3xl
+            shadow-[0_16px_0_0_#faf8f4]"></div>
+          <div class="lg:hidden absolute -top-16 right-0 h-12 w-4 bg-brand-secondary-blue z-10 rounded-br-3xl
+            shadow-[0_16px_0_0_#faf8f4]"></div>
+        </a>
+      </div>
+
+      <div class="absolute z-20 right-0 top-0 bottom-0 w-2/3 sm:w-3/4 h-full -mr-20 -skew-x-12 bg-brand-secondary-blue">
+      </div>
+      <div class="absolute z-10 top-0 left-0 w-full sm:w-1/2 lg:w-2/5 h-full bg-black/40"></div>
+      <img class="absolute z-0 top-0 left-0 w-full sm:w-1/2 lg:w-2/5 h-full object-cover" src="img/card-img-1.png"
+        alt="">
+
+      <!-- shape on bottom-right -->
+      <svg class="hidden lg:block absolute z-20 bottom-8 right-12" xmlns="http://www.w3.org/2000/svg" width="182"
+        height="194" viewBox="0 0 182 194" fill="none">
+        <path d="M68 8C79.3194 46.74 95.1664 136.576 68 186" stroke="#FF9D01" stroke-width="15"
+          stroke-linecap="round" />
+        <path d="M8 107C41.1593 98.5917 120.782 83.3005 174 89.4013" stroke="#FF9D01" stroke-width="15"
+          stroke-linecap="round" />
+        <path d="M118 15C100.2 57.9651 57.48 147.316 29 161" stroke="#FF9D01" stroke-width="15"
+          stroke-linecap="round" />
+        <path d="M25 46C46.199 57.854 92.8777 91.2496 110 130" stroke="#FF9D01" stroke-width="15"
+          stroke-linecap="round" />
+      </svg>
+    </div>
+  </section>
+
+  <footer class="border-t border-brand-secondary-blue">
+    <div class="max-w-xxl mx-auto px-5 pt-10 lg:pt-14 pb-10 lg:pb-24">
+      <div
+        class="flex flex-col lg:flex-row items-center justify-center lg:justify-between space-y-5 lg:space-y-0 pb-8 lg:pb-14">
+        <a class="block" href="#">
+          <img src="img/logo.svg" alt="logo">
+        </a>
+
+        <div class="flex flex-col sm:flex-row items-center text-brand-gray gap-4 sm:gap-8 lg:gap-14">
+          <a href="#" class="lg:hover:text-black transition ease-linear">Find Sub</a>
+          <a href="#" class="lg:hover:text-black transition ease-linear">For School</a>
+          <a href="#" class="lg:hover:text-black transition ease-linear">Resource</a>
+          <a href="#" class="lg:hover:text-black transition ease-linear">About Us</a>
+        </div>
+
+        <a class="font-sequel-300 text-lg text-white border border-brand-primary-orange rounded-xl rounded-bl-none bg-brand-primary-orange lg:hover:text-brand-primary-orange lg:hover:bg-transparent  transition ease-linear py-3 px-8"
+          href="#">Subscribe Now</a>
+      </div>
+
+      <div class="flex flex-col md:flex-row items-center justify-center md:justify-between space-y-5 lg:space-y-0">
+        <p class="font-sequel-300 text-lg text-brand-gray text-center md:text-left">@ copyright swing.co 2023. All
+          Rights Reserved
+        </p>
+        <div class="flex items-center gap-6 lg:gap-10">
+          <a href="#"
+            class="w-10 lg:w-16 h-10 lg:h-16 flex items-center justify-center rounded-full bg-brand-secondary-blue lg:hover:bg-brand-primary-orange transition ease-linear">
+            <img class="w-6 lg:w-8" src="img/instagram.svg" alt="instagram">
+          </a>
+          <a href="#"
+            class="w-10 lg:w-16 h-10 lg:h-16 flex items-center justify-center rounded-full bg-brand-secondary-blue lg:hover:bg-brand-primary-orange transition ease-linear">
+            <img class="w-6 lg:w-8" src="img/facebook.svg" alt="facebook">
+          </a>
+          <a href="#"
+            class="w-10 lg:w-16 h-10 lg:h-16 flex items-center justify-center rounded-full bg-brand-secondary-blue lg:hover:bg-brand-primary-orange transition ease-linear">
+            <img class="w-6 lg:w-8" src="img/twitter.svg" alt="twitter">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- js for toggling menu -->
+  <script>
+    document.querySelectorAll('.toggleMenu').forEach((btn) => {
+      if (btn) {
+        btn.addEventListener('click', () => {
+          document.querySelector('.menu').classList.toggle('-translate-x-full')
+          document.body.classList.toggle('overflow-hidden')
+        })
+      }
+    })
+  </script>
+</body>
+
+</html>
